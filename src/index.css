@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html {scroll-behavior: smooth;}
+body { @apply min-h-screen bg-slate-50 text-slate-900 antialiased; }
+.section { @apply py-20 md:py-28; }
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-5 py-3 font-medium shadow-lg transition hover:translate-y-[-1px] active:translate-y-[0]; }
+.btn-primary { @apply bg-indigo-600 text-white hover:bg-indigo-700; }
+.btn-ghost { @apply bg-white text-slate-900 border border-slate-200 hover:bg-slate-50; }
+.card { @apply rounded-2xl bg-white/80 backdrop-blur border border-slate-200 p-6 shadow-lg; }
+.badge { @apply inline-block rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-indigo-700 text-sm; }
